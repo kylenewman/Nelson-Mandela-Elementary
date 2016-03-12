@@ -1,0 +1,194 @@
+/***** COLORS *****/
+  /*  
+  white = #f6f9fd
+  navy = #00295b
+  yellow-orange = #f0b30d
+  black = #010c19
+  */
+
+/***** ABOVE NAV *****/
+
+.aboveNav {
+	padding-top: 10px;
+	padding-bottom: 25px;
+}
+.aboveNav img {
+	width: 275px;
+	display: inline-block;
+}
+.aboveNav p {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	color: #00295b;
+	display: inline-block;
+	vertical-align: top;
+	text-align: right;
+	line-height: 20px;
+	margin: 15px 25px 0 25px;;
+}
+
+/***** NAVIGATION *****/
+
+.navbar-custom {
+	background-color:#00295b;
+    color:#ffffff;
+  	border-radius:0;
+	min-height: 50px;
+	line-height: 50px;
+}
+.navbar-custom .navbar-nav > li > a {
+  	color:#fff;
+	padding: 0 20px;
+	font-family: "open sans", sans-serif;
+	font-weight: 800;
+	font-size: 16px;
+	text-transform: uppercase;
+	line-height: 70px;
+}
+.navbar-custom .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
+    color: #f6f9fd;
+	background-color:transparent;
+}   
+.navbar-custom .navbar-nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+    background-color: #f0b30d;
+}   
+.navbar-custom .navbar-brand {
+  	color:#eeeeee;
+}
+.navbar-custom .navbar-toggle {
+  	background-color:#eeeeee;
+}
+.navbar-custom .icon-bar {
+  	background-color:#00295b;
+}
+.navbar-header img {
+	width: 55px;
+	margin-top: -5px;
+}
+.dropdown-menu>li>a {
+	color: #00295b;
+	font-family: "open sans", sans-serif;
+}
+
+/***** CALL TO ACTION *****/
+
+.cta {
+	text-align: center;
+}
+h1, .cta h4 {
+	font-family: 'Open sans', sans-serif;
+	font-weight: 800;
+	text-transform: uppercase;
+	color: #00295b;
+}
+h1 {
+	font-size: 36px;
+	padding-top: 35px;
+}
+h2, p {
+	font-family: 'Gentium Basic', serif;
+	font-weight: 400;
+	color: #010c19;
+}
+h2 {
+	font-size: 24px;
+	padding: 15px 15% 55px 15%;
+	line-height: 28px;
+}
+.cta img {
+	height: 150px;
+	border-radius: 50%;
+	margin-bottom: 20px;
+}
+.cta h4 {
+	font-size: 18px;
+	padding-bottom: 5px;
+}
+.cta p {
+	font-size: 15px;
+	padding: 0 20%;
+	line-height: 18px;
+}
+.cta a {
+	background-color: #f0b30d;
+	padding: 20px 30px;
+	color: #f6f9fd;
+	display: inline-block;
+	border-radius: 10px;
+	font-family: 'gentium basic', serif;
+	font-style: italic;
+	font-size: 18px;
+	margin-top: 45px;
+	text-decoration: none;
+}
+.cta a:hover {
+	background-color: #00834d;
+}
+
+
+/***** UNIVERSAL *****/
+
+.right {
+	float: right;
+}
+.left {
+	float: left;
+}
+  /*
+  navy = 00295b
+  orange = f0b30d
+  */
+footer {
+  background-color: #00295b;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: 600;
+  color: #f6f9fd;
+}
+footer ul {
+  display: inline-block;
+  list-style-type: none;
+  padding-top: 65px;
+  padding-bottom: 50px;
+  line-height: 23px;
+}
+footer ul:nth-child(3) {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  float: right;
+}
+footer ul:nth-child(2){
+  position: relative;
+  bottom: 22px;
+}
+footer a:link {
+   text-decoration: none;
+  color: #f6f9fd;
+}
+
+footer a:visited {
+  text-decoration: none;
+  color: #f6f9fd;
+}
+
+footer a:hover {
+  text-decoration: none;
+  color: #f6f9fd;
+}
+
+footer a:active {
+  text-decoration: none;
+  color: #f6f9fd;
+}
+footer div {
+  font-weight: normal;
+  text-align: center;
+  padding-bottom: 34px;
+}
+.contactus {
+  text-align: center;
+  border: 1px ;
+}
