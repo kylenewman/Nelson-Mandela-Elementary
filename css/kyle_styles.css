@@ -163,7 +163,45 @@ h2 {
   background-color: #00834d;
 }
 
+/***** STAFF *****/
 
+.staff {
+  text-align: center;
+}
+.staff img {
+  border-radius: 50%;
+  width: 75%;
+  margin-top: 55px;
+  margin-bottom: 10px;
+}
+.staff h5 {
+  font-family: 'open sans', 'sans-serif';
+  font-size: 18px;
+  color: #00295b;
+  padding-bottom: 5px;
+}
+.staff h6 {
+  font-family: 'open sans', sans-serif;
+  /*  font-style: italic;*/
+  font-size: 14px;
+  color: #00295b;
+}
+.staff a {
+  background-color: #f0b30d;
+  padding: 10px 15px;
+  color: #f6f9fd;
+  display: inline-block;
+  border-radius: 10px;
+  font-family: 'gentium basic', serif;
+  font-style: italic;
+  font-size: 10px;
+  margin-top: 10px;
+  text-decoration: none;
+}
+.cta a:hover {
+  background-color: #00834d;
+}
+}
 /***** UNIVERSAL *****/
 
 .right {
