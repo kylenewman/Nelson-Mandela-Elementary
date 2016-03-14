@@ -1,0 +1,111 @@
+.carousel{
+    width:400px;
+    height:200px;
+}
+/*****NAVIGATION*****/
+.navbar-custom {
+  background-color:#00295b;
+  color:#ffffff;
+  border-radius:0;
+  min-height: 50px;
+  line-height: 50px;
+}
+.navbar-custom .navbar-nav > li > a {
+  color:#fff;
+  padding: 0 10px;
+  font-family: "open sans", sans-serif;
+  font-weight: 800;
+  font-size: 16px;
+  text-transform: uppercase;
+  line-height: 70px;
+}
+.navbar-custom .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
+  color: #f6f9fd;
+  background-color:transparent;
+}   
+.navbar-custom .navbar-nav > li > a:hover, .nav > li > a:focus {
+  text-decoration: none;
+  background-color: #f0b30d;
+}   
+.navbar-custom .navbar-brand {
+  color:#eeeeee;
+}
+.navbar-custom .navbar-toggle {
+  background-color:#eeeeee;
+}
+.navbar-custom .icon-bar {
+  background-color:#00295b;
+}
+.navbar-header img {
+  width: 55px;
+  margin-top: -5px;
+}
+.dropdown-menu>li>a {
+  color: #00295b;
+  font-family: "open sans", sans-serif;
+}
+
+@media all and (max-width: 768px) {
+  .navbar-header img {
+    width: 40px;
+    margin-top: -8px;
+  }
+}
+/*****Partners*****/
+.staff {
+  text-align: center;
+}
+.staff img {
+  border-radius: 50%;
+  width: 75%;
+  margin-top: 55px;
+  margin-bottom: 10px;
+}
+.staff h5 {
+  font-family: 'open sans', 'sans-serif';
+  font-size: 18px;
+  color: #00295b;
+  padding-bottom: 5px;
+}
+.staff h6 {
+  font-family: 'open sans', sans-serif;
+  /*  font-style: italic;*/
+  font-size: 14px;
+  color: #00295b;
+}
+.staff a {
+  background-color: #f0b30d;
+  padding: 10px 30px;
+  color: #f6f9fd;
+  display: inline-block;
+  border-radius: 10px;
+  font-family: 'gentium basic', serif;
+  font-style: italic;
+  font-size: 16px;
+  margin-top: 10px;
+  text-decoration: none;
+}
+.staff a:hover {
+  background-color: #00834d;
+}
+.modal-body {
+  font-family: 'open sans', sans-serif;
+}
+.modal-body span {
+  font-style: italic;
+  font-weight: 400;
+}
+.modal-body p {
+  padding-bottom: 5px;
+}
+.btn-custom {
+  background-color: #f0b30d;
+  background-image: none;
+}
+
+@media all and (max-width: 768px) {
+  .staff img {
+    width: 55%
+  }
+}
+
