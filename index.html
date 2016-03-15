@@ -32,6 +32,7 @@
 		<link href="css/styles.css" rel="stylesheet" /> 
         <link href="css/kyle_styles.css" rel="stylesheet" />
         <link href="css/nickstyles.css" rel="stylesheet">
+        <link href="css/kim_styles.css" rel="stylesheet"/>
     
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -96,11 +97,14 @@
           </div><!-- /.navbar-collapse -->
         </div>
       </nav>
-      <!---carousel--->    
-    <div  class="carousel slide" id="carousel">
+      <!---carousel---> 
+    <div class="container"> 
+    <div class="row"> 
+    <div class="col-sm-12">  
+    <div  class="carousel slide" id="carousel" data ride="carousel">
         <!---indicators--->
         <ol class="carousel-indicators">
-            <li class="active" data-target="#carousel" data-slide-to="0"></li>
+            <li data-target="#carousel" data-slide-to="0" class="active" ></li>
             <li data-target="#carousel" data-slide-to="1"></li>
             <li data-target="#carousel" data-slide-to="2"></li>
         </ol>
@@ -132,7 +136,9 @@
             <a class="left carousel-control" data-slide="prev" href="#carousel"><span class="icon-prev"></span></a>
             <a class="right carousel-control" data-slide="next" href="#carousel"><span class="icon-next"></span></a>
     </div><!--end carousel-->
-        
+    </div><!--col-sm-12-->    
+    </div><!--class row-->    
+    </div> <!--container-->    
       <div class="cta container">
         <div class="row">
           <h1>Our Mission</h1>
