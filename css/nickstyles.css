@@ -41,7 +41,6 @@ footer ul:nth-child(2){
 }
 .list {
   text-align: left;
-  margin-top: -50px;
 }
 footer a:link {
   text-decoration: none;
@@ -67,9 +66,6 @@ footer div {
   text-align: center;
   padding-bottom: 34px;
 }
-footer img {
-  padding: 0px 5px;
-}
 .contactus {
   text-align: center;
   border: 1px ;
@@ -82,7 +78,7 @@ h3 {
   color: #00295b;
   font-size: 36px;
   text-align: center;
-  padding-top: 45px;
+  padding-top: 112px;
   padding-bottom: 25px;
 }
 h4 {
@@ -103,7 +99,20 @@ h5 {
 }
 .curr p {
   font-family: "Gentium Basic";
+  color: #00295b;
+  font-size: 16px;
+}
+.employ p {
+  padding-bottom: 50px;
+  text-align: left;
+  width: 600px;
+  font-family: "Gentium Basic";
   color: #010c19;
-  font-size: 15px;
-  line-height: 18px;
+  font-size: 16px;
+  line-height: 17px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+.news {
+  margin: 0 auto;
 }
