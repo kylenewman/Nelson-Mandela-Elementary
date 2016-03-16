@@ -7,7 +7,6 @@
   */
 
 /***** ABOVE NAV *****/
-
 .aboveNav {
   padding-top: 10px;
   padding-bottom: 25px;
@@ -65,6 +64,9 @@
   min-height: 50px;
   line-height: 50px;
 }
+.navbar .container {
+  padding-top: 0;
+}
 .navbar {
   margin-bottom: 0;
 }
@@ -118,6 +120,9 @@
   .navbar-header img {
     width: 120px;
     margin-top: -8px;
+  }
+  .navbar-custom .navbar-nav > li > a {
+    font-size: 16px;
   }
   .dropdown-menu>li>a {
     color: #f6f9fd;
@@ -324,18 +329,23 @@ h2 {
   font-weight: 700;
   padding-top: 25px;
 }
+.mantra p {
+  line-height: 17px;
+  padding-bottom: 55px;
+}
 .logoBar p {
   padding-top: 8px;
+  padding-bottom: 0;
   font-size: 18px;
 }
 .logo {
   text-align: center;
 }
 .logoBar {
-  padding-top: 45px;
+  padding-top: 0;
 }
 .mantra img {
-  width: 85%;
+  width: 300px;
   padding-bottom: 500px;
 }
 .colLeft, .colRight {
@@ -361,6 +371,64 @@ h2 {
 }
 .colRight h6:nth-of-type(3) {
   color: #800080;
+}
+.logoBarMobile {
+  display: none;
+}
+.head h5 {
+  padding-bottom: 35px;
+}
+
+@media all and (max-width: 992px) {
+  .mantra img {
+    width: 235px;
+    padding-top: 40px;
+  }
+}
+@media all and (max-width: 768px) {
+  .logoBar {
+    display: none;
+  }
+  .logoBarMobile {
+    display: block;
+    text-align: center;
+  }
+  .mantra img {
+    display: block;
+    margin: 0 auto;
+    width: 185px;
+    padding-top: 45px;
+    padding-bottom: 15px;
+  }
+  .head h5 {
+    padding-top: 5px;
+    padding-bottom: 10px;
+  }
+  .colMobile {
+    text-align: center;
+  }
+  .colMobile h6 {
+    padding-top: 10px;
+    padding-bottom: 5px;
+  }
+  .mantra p {
+    padding-bottom: 10px;
+  }
+  .gold h6 {
+    color: #efb211;
+  }
+  .red h6 {
+    color: #ef3e2e;
+  }
+  .green h6 {
+    color: #008c5b;
+  }
+  .blue h6 {
+    color: #004f92;
+  }
+  .purple h6 {
+    color: #800080;
+  }
 }
 
 /***** UNIVERSAL *****/
