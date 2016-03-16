@@ -95,8 +95,8 @@
   background-color:#00295b;
 }
 .navbar-header img {
-  width: 175px;
-  margin-top: -7px;
+  width: 125px;
+  margin-top: 0px;
 }
 .dropdown-menu>li>a {
   color: #00295b;
@@ -106,6 +106,14 @@
   background-color: #f0b30d;
 }
 
+@media all and (max-width: 996px) {
+  .navbar-custom .navbar-nav > li > a {
+    font-size: 13px;
+  }
+  .navbar-form .form-control {
+    width: 135px;
+  }
+}
 @media all and (max-width: 768px) {
   .navbar-header img {
     width: 120px;
