@@ -209,7 +209,6 @@ h2 {
 }
 .staff h6 {
   font-family: 'open sans', sans-serif;
-  /*  font-style: italic;*/
   font-size: 14px;
   color: #00295b;
 }
@@ -230,6 +229,12 @@ h2 {
 }
 .modal-body {
   font-family: 'open sans', sans-serif;
+}
+.modal-body img {
+  float: left;
+  height: 155px;
+  padding-right: 10px;
+  border-radius: 50%;
 }
 .modal-body span {
   font-style: italic;
