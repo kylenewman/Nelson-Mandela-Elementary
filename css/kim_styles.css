@@ -1,11 +1,7 @@
-<<<<<<< Updated upstream
-=======
-.carousel {
-    width:400px;
-    height:200px;
+/*****Carousel*****/
+.container {
+    padding-top: 20px;
 }
->>>>>>> Stashed changes
-
 /*****NAVIGATION*****/
 .navbar-custom {
   background-color:#00295b;
