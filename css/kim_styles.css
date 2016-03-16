@@ -2,6 +2,19 @@
 .container {
     padding-top: 20px;
 }
+/*****Calendar*****/
+h1 {
+    font-size: 36px;
+    padding-top: 35px;
+    text-align: center;
+    color: #00295b;
+}
+h1, .cta h4 {
+    font-family: 'Open sans', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #00295b;
+}
 /*****NAVIGATION*****/
 .navbar-custom {
   background-color:#00295b;
