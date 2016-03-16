@@ -100,7 +100,11 @@ h5 {
 .curr p {
   font-family: "Gentium Basic";
   color: #00295b;
-  font-size: 16px;
+  font-size: 15px;
+  line-height: 18px;
+  font-family: 'Gentium Basic', serif;
+  font-weight: 400;
+  color: #010c19
 }
 .employ p {
   padding-bottom: 50px;
@@ -115,4 +119,7 @@ h5 {
 }
 .news {
   margin: 0 auto;
+}
+footer img {
+  padding: 0 5px;
 }
