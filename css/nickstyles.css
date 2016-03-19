@@ -132,7 +132,32 @@ footer img {
 .photos iframe {
   margin: 30px 0px;
 }
-#player {
+.grid-item img {
+  width: 400px;
 }
-#panel3a {
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- .grid-item ---- */
+
+.grid-sizer,
+.grid-item {
+  width: 33.333%;
+}
+
+.grid-item {
+  float: left;
+}
+
+.grid-item img {
+  display: block;
+  width: 100%;
+  padding: 3px 3px 0px 0px;
+}
+.contactus {
+  padding: 0px;
 }
