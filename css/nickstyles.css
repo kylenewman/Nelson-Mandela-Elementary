@@ -71,6 +71,9 @@ footer div {
   border: 1px ;
   padding-bottom: 125px;
 }
+.lasthomebutton {
+  padding-bottom: 45px;
+}
 h3 {
   font-family: 'Open sans', sans-serif;
   font-weight: 800;
@@ -119,6 +122,15 @@ h5 {
 }
 .news {
   margin: 0 auto;
+  padding-bottom: 15px;
+}
+.news a {
+  font-family: 'Gentium Basic', serif;
+  font-weight: 400;
+  color: #00295b;
+}
+.lastnews {
+  padding-bottom: 45px;
 }
 footer img {
   padding: 0 5px;
@@ -161,3 +173,11 @@ footer img {
 .contactus {
   padding: 0px;
 }
+.construct {
+  padding-bottom: 30px;
+}
+.photos {
+  background-color: 
+}
+
+
