@@ -211,7 +211,7 @@ h2 {
 .staff, .partners {
   text-align: center;
 }
-.staff img, .partners img {
+.staff img, .partners img, {
   width: 75%;
   margin-top: 55px;
   margin-bottom: 10px;
@@ -222,18 +222,18 @@ h2 {
 .partners img {
   border-radius: 0;
 }
-.staff h5, .partners h5 {
+.staff h5, .partners h5, {
   font-family: 'open sans', 'sans-serif';
   font-size: 18px;
   color: #00295b;
   padding-bottom: 5px;
 }
-.staff h6 {
+.staff h6, {
   font-family: 'open sans', sans-serif;
   font-size: 14px;
   color: #00295b;
 }
-.staff a, .partners a {
+.staff a, .partners a  {
   background-color: #f0b30d;
   padding: 10px 30px;
   color: #f6f9fd;
