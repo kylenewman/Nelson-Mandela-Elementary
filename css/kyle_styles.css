@@ -57,6 +57,14 @@
 
 /***** NAVIGATION *****/
 
+#topnavbar {
+  margin: 0;
+  width: 100%;
+}
+#topnavbar.affix {
+  position: fixed;
+  top: 0;
+}
 .navbar-custom {
   background-color:#00295b;
   color:#ffffff;
@@ -430,6 +438,26 @@ h2 {
     color: #800080;
   }
 }
+
+/***** PARENT INFO *****/
+
+.parent img {
+  border-radius: 0;
+}
+
+/***** CAROUSEL *****/
+
+.carousel {
+  height: 80%;
+  width: 100%;
+}
+.carousel img{
+  width: 100
+}
+.carouselWrap {
+  text-align: center;
+}
+
 
 /***** UNIVERSAL *****/
 

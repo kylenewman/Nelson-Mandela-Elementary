@@ -25,7 +25,12 @@
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<link href="index.css" rel="stylesheet">
 		<link href='https://fonts.googleapis.com/css?family=Gentium+Basic:400,700italic' rel='stylesheet' type='text/css'>
-		<link href="/Users/nicholas/Documents/Nelson-Mandela/css/styles.css" 
+		<link href="/Users/nicholas/Documents/Nelson-Mandela/css/styles.css">
+      
+        <!-- Scripts -->
+        <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script src="js/script.js"></script>
+        <script src="js/banner.js"></script>
 
 		<!-- CSS -->
 		<link href="css/reset.css" rel="stylesheet" />
@@ -44,7 +49,7 @@
 	
 	<body>
 		<div class="aboveNav container">
-        <div class="row">
+        <div class="row" id="banner">
             <a href="index.html"><img src="img/mandela.png" /></a>
           <div class="aboveNavInfo">
             <p>6316 N 30th St <br> Omaha, NE 68111
@@ -60,7 +65,7 @@
         </div>
       </div>
   		
-      <nav class="navbar navbar-custom navbar-static-top">
+      <nav class="navbar navbar-custom navbar-static-top" id="topnavbar">
         <div class="container">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -69,7 +74,7 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="index.html"><img src="img/mandelaMobile.png" /></a>
+            <a class="navbar-brand" id="nav-brand" href="index.html"><img src="img/mandelaMobile.png" /></a>
           </div>
           <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
@@ -89,7 +94,8 @@
               <li><a href="employment.html">Careers</a></li>
               <form class="navbar-form navbar-left" role="search">
                 <div class="form-group">
-                  <input type="text" class="form-control" placeholder="Search" >
+                  <input type="text" class="form-control st-default-search-input" placeholder="Search">
+<!--                  <input type="text" class="st-default-search-input">-->
                   <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
                 </div>
               </form>
@@ -98,47 +104,49 @@
         </div>
       </nav>
       <!---carousel---> 
-      <div class="container"> 
-        <div class="row"> 
-          <div class="col-sm-12">  
-            <div  class="carousel slide" id="carousel" data ride="carousel">
-            <!---indicators--->
-            <ol class="carousel-indicators">
-              <li data-target="#carousel" data-slide-to="0" class="active" ></li>
-              <li data-target="#carousel" data-slide-to="1"></li>
-              <li data-target="#carousel" data-slide-to="2"></li>
-            </ol>
-            <!---wrapper for slides--->
-            <div class="carousel-inner">
-              <div class="item active" id="slide1">
-                  <img src="img/new_bldg.jpg" alt="...">
-                <div class="carousel-caption">
-                  <h4>New Building</h4>
-                  <p>additional info here</p>
+      
+      <div class="carouselWrap">
+        <div class="carousel container"> 
+          <div class="row"> 
+              <div  class="carousel slide" id="carousel" data ride="carousel">
+              <!---indicators--->
+              <ol class="carousel-indicators">
+                <li data-target="#carousel" data-slide-to="0" class="active" ></li>
+                <li data-target="#carousel" data-slide-to="1"></li>
+                <li data-target="#carousel" data-slide-to="2"></li>
+              </ol>
+              <!---wrapper for slides--->
+              <div class="carousel-inner">
+                <div class="item active" id="slide1">
+                    <img src="img/new_bldg2.jpg" alt="...">
+                  <div class="carousel-caption">
+                    <h4>New Building</h4>
+                    <p>additional info here</p>
+                  </div>
                 </div>
+                <div class="item" id="slide2">
+                    <img src="img/u9.jpeg" alt="...">
+                  <div class="carousel-caption">
+                    <h4>Any</h4>
+                    <p>additional info here</p>
+                  </div>
+                </div> 
+                <div class="item" id="slide3">
+                    <img src="img/hiring.jpg" alt="...">
+                  <div class="carousel-caption">
+                    <h4>Any</h4>
+                    <p>additional info here</p>
+                  </div>
+                </div> 
               </div>
-              <div class="item" id="slide2">
-                  <img src="img/new_bldg.jpg" alt="...">
-                <div class="carousel-caption">
-                  <h4>Any</h4>
-                  <p>additional info here</p>
-                </div>
-              </div> 
-              <div class="item" id="slide3">
-                  <img src="img/new_bldg.jpg" alt="...">
-                <div class="carousel-caption">
-                  <h4>Any</h4>
-                  <p>additional info here</p>
-                </div>
-              </div> 
-            </div>
-            <!--controls-->        
-                <a class="left carousel-control" data-slide="prev" href="#carousel"><span class="icon-prev"></span></a>
-                <a class="right carousel-control" data-slide="next" href="#carousel"><span class="icon-next"></span></a>
-            </div>
+              <!--controls-->        
+                  <a class="left carousel-control" data-slide="prev" href="#carousel"><span class="icon-prev"></span></a>
+                  <a class="right carousel-control" data-slide="next" href="#carousel"><span class="icon-next"></span></a>
+              </div>
           </div>   
-        </div>   
-      </div><!--end carousel-->    
+        </div><!--end carousel--> 
+      </div>
+      
       <div class="cta container">
         <div class="row">
           <h1>Our Mission</h1>
@@ -219,7 +227,20 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
+<<<<<<< Updated upstream
     <script src="js/bootstrap.min.js"></script>     
+=======
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+ (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
+ (w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
+ e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
+ })(window,document,'script','//s.swiftypecdn.com/install/v2/st.js','_st');
+ 
+ _st('install','WzJ-YBrsENtxdgAKU42q','2.0.0');
+</script>
+     
+>>>>>>> Stashed changes
     <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
     <link href="index.css" rel="stylesheet">
