@@ -176,6 +176,9 @@ footer img {
 .construct {
   padding-bottom: 30px;
 }
+.grid img {
+  border-radius: 5%;
+}
 .photos {
   background-color: 
 }
