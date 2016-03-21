@@ -5,26 +5,32 @@
 .youcanlearn iframe {
   display: inline-block;
   text-align: center;
-  padding-top: 100px;
+  padding-top: 50px;
 }
 .youcanlearn {
   background-image: url(../img/video_bg.jpg);
-  height: 500px;
-  margin-top: 112px;
+  height: 440px;
+  margin-top: 50px;
 }
 footer {
   background-color: #00295b;
+}
+footer a {
   font-family: "Open Sans";
-  font-size: 18px;
-  font-weight: 600;
+  font-size: 14px;
+  font-weight: 800;
   color: #f6f9fd;
   text-align: left;
+}
+footer p {
+  color: #f6f9fd;
+  font-family: 'open sans', sans-serif;
 }
 footer ul {
   display: inline-block;
   list-style-type: none;
-  padding-top: 65px;
-  padding-bottom: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   line-height: 23px;
   text-align: left;
 }
@@ -64,7 +70,7 @@ footer a:active {
 footer div {
   font-weight: normal;
   text-align: center;
-  padding-bottom: 34px;
+  padding-bottom: 10px;
 }
 .contactus {
   text-align: center;
@@ -81,7 +87,7 @@ h3 {
   color: #00295b;
   font-size: 36px;
   text-align: center;
-  padding-top: 112px;
+  padding-top: 35px;
   padding-bottom: 25px;
 }
 h4 {
@@ -100,6 +106,10 @@ h5 {
   color: #00295b;
   font-weight: 800;
 }
+.curr {
+  text-align: center;
+  margin-bottom: 40px;
+}
 .curr p {
   font-family: "Gentium Basic";
   color: #00295b;
@@ -108,6 +118,13 @@ h5 {
   font-family: 'Gentium Basic', serif;
   font-weight: 400;
   color: #010c19
+}
+.currRow {
+  text-align: left;
+}
+.currRow h5 {
+  padding-bottom: 5px;
+  padding-top: 20px;
 }
 .employ p {
   padding-bottom: 50px;
@@ -133,7 +150,8 @@ h5 {
   padding-bottom: 45px;
 }
 footer img {
-  padding: 0 5px;
+  padding: 0 10px;
+  width: 65px;
 }
 .news h3:first-of-type {
   padding-bottom: 20px;
