@@ -233,7 +233,7 @@ h2 {
   font-size: 14px;
   color: #00295b;
 }
-.staff a, .partners a  {
+.staff a, .partners a, .cd-full-width a  {
   background-color: #f0b30d;
   padding: 10px 30px;
   color: #f6f9fd;
@@ -245,7 +245,7 @@ h2 {
   margin-top: 10px;
   text-decoration: none;
 }
-.staff a:hover, .partners a:hover {
+.staff a:hover, .partners a:hover, .cd-full-width a:hover {
   background-color: #00834d;
 }
 .modal-body {
@@ -447,17 +447,48 @@ h2 {
 
 /***** CAROUSEL *****/
 
+.thumbnail {
+  color: none;
+  background-color: none;
+  box-shadow: none;
+  padding: 0;
+  margin-bottom: 0;
+  border: none;
+  border-radius: 0;
+}
 .carousel {
-  height: 80%;
-  width: 100%;
-}
-.carousel img{
-  width: 100
-}
-.carouselWrap {
   text-align: center;
 }
-
+.carousel h2 {
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.9);
+  padding-bottom: 0;
+  font-family: 'open sans', sans-serif;
+  font-weight: 400;
+  max-width: 90%;
+}
+.cd-full-width h2, .cd-half-width h2 {
+  padding-top: 90px;
+  font-size: 36px;
+  text-align: center;
+}
+.cd-half-width h2 {
+  padding-top: 150px;
+  padding-top: 150px;
+}
+.cd-half-width img {
+  height: 325px;
+  padding-top: 25px;
+}
+.cd-half-width, .cd-hero-slider {
+  padding-top: 0;
+}
+.cd-hero-slider {
+  padding-top: 0;
+}
+.dark h2 {
+  color: #00295b;
+  text-shadow: 0 1px 3px rgba(256, 256, 256, 0.9)
+}
 
 /***** UNIVERSAL *****/
 

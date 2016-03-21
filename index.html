@@ -34,6 +34,7 @@
 
 		<!-- CSS -->
 		<link href="css/reset.css" rel="stylesheet" />
+        <link href="css/slider.css" rel="stylesheet" />
 		<link href="css/styles.css" rel="stylesheet" /> 
         <link href="css/nickstyles.css" rel="stylesheet">
         <link href="css/kim_styles.css" rel="stylesheet"/>
@@ -89,8 +90,8 @@
                 </ul>
               </li>
               <li><a href="staff.html">Staff</a></li>
-              <li><a href="#">Photos</a></li>
-              <li><a href="#">Contact</a></li>
+              <li><a href="photos.html">Photos</a></li>
+              <li><a href="contactus.html">Contact</a></li>
               <li><a href="employment.html">Careers</a></li>
               <form class="navbar-form navbar-left" role="search">
                 <div class="form-group">
@@ -105,47 +106,48 @@
       </nav>
       <!---carousel---> 
       
-      <div class="carouselWrap">
-        <div class="carousel container"> 
-          <div class="row"> 
-              <div  class="carousel slide" id="carousel" data ride="carousel">
-              <!---indicators--->
-              <ol class="carousel-indicators">
-                <li data-target="#carousel" data-slide-to="0" class="active" ></li>
-                <li data-target="#carousel" data-slide-to="1"></li>
-                <li data-target="#carousel" data-slide-to="2"></li>
-              </ol>
-              <!---wrapper for slides--->
-              <div class="carousel-inner">
-                <div class="item active" id="slide1">
-                    <img src="img/new_bldg2.jpg" alt="...">
-                  <div class="carousel-caption">
-                    <h4>New Building</h4>
-                    <p>additional info here</p>
-                  </div>
-                </div>
-                <div class="item" id="slide2">
-                    <img src="img/u9.jpeg" alt="...">
-                  <div class="carousel-caption">
-                    <h4>Any</h4>
-                    <p>additional info here</p>
-                  </div>
-                </div> 
-                <div class="item" id="slide3">
-                    <img src="img/hiring.jpg" alt="...">
-                  <div class="carousel-caption">
-                    <h4>Any</h4>
-                    <p>additional info here</p>
-                  </div>
-                </div> 
-              </div>
-              <!--controls-->        
-                  <a class="left carousel-control" data-slide="prev" href="#carousel"><span class="icon-prev"></span></a>
-                  <a class="right carousel-control" data-slide="next" href="#carousel"><span class="icon-next"></span></a>
-              </div>
-          </div>   
-        </div><!--end carousel--> 
-      </div>
+<section class="cd-hero carousel" id="carousel">
+		<ul class="cd-hero-slider autoplay">
+			<li class="selected">
+			<div class="cd-full-width">
+              <h2>"Education is the most powerful weapon which you can use to change the world. I will change the world with my Hope, Strength, Service, Unity, Peace and Wisdom."</h2>
+            </div> <!-- .cd-full-width -->
+			</li>
+			<li>
+              <div class="cd-half-width">
+                <h2>Manny the Mascot's March Outfit</h2>
+              </div> <!-- .cd-half-width -->
+              <div class="cd-half-width">
+                <img src="img/marchmanny.JPG" alt="">
+              </div> <!-- .cd-half-width.cd-img-container -->
+			</li>
+            <li>
+              <div class="cd-full-width dark">
+                <h2>Check out the latest employment opportunities with Nelson Mandela Elementary</h2>
+                <a href="#">Careers</a>
+              </div> <!-- .cd-full-width -->
+			</li>
+			<li>
+				<div class="cd-full-width">
+					<h2>View Photos from Uniform Try On Day!</h2>
+                    <a href="#">Photos</a>
+				</div> <!-- .cd-full-width -->
+			</li>
+      </ul>
+
+		<div class="cd-slider-nav">
+			<nav>
+				<span class="cd-marker item-1"></span>
+				
+				<ul>
+					<li class="selected"><a href="#0"><img class="thumbnail" src="img/thumbnail/building-thumb.jpg" /></a></li>
+					<li><a href="#0"><img class="thumbnail" src="img/thumbnail/marchmanny.jpg" /></a></li>
+                  <li><a href="#0"><img class="thumbnail" src="img/thumbnail/hiring-thumb.jpg" /></a></li>
+					<li><a href="#0"><img class="thumbnail" src="img/thumbnail/u9-thumb.jpg" /></a></li>
+              </ul>
+			</nav> 
+		</div> <!-- .cd-slider-nav -->
+	</section> <!-- .cd-hero -->
       
       <div class="cta container">
         <div class="row">
@@ -239,8 +241,8 @@
  
  _st('install','WzJ-YBrsENtxdgAKU42q','2.0.0');
 </script>
-     
->>>>>>> Stashed changes
+      <script src="js/main.js"></script>
+    
     <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
     <link href="index.css" rel="stylesheet">
