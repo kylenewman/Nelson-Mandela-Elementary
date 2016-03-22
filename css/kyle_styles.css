@@ -205,6 +205,11 @@ h2 {
 .cta a:hover {
   background-color: #00834d;
 }
+@media all and (max-width: 768px) {
+  .name {
+    margin-top: 45px;
+  }
+}
 
 /***** STAFF *****/
 
@@ -494,6 +499,40 @@ h2 {
   color: #00295b;
   text-shadow: 0 1px 3px rgba(256, 256, 256, 0.9)
 }
+
+@media all and (max-width: 768px) {
+  .cd-full-width h2, .cd-half-width h2 {
+    font-size: 28px;
+  }
+  .cd-half-width img {
+    display: none;
+  }
+}
+@media all and (max-width: 550px) {
+  .cd-full-width h2, .cd-half-width h2 {
+    font-size: 20px;
+  }
+}
+
+/***** CALENDAR *****/
+
+.calendar {
+  padding-bottom: 75px;
+}
+.calendar h5 {
+  text-align: center;
+  padding-top: 45px;
+}
+.calendar iframe, .calendar img {
+  max-width: 85%;
+}
+@media all and (max-width: 768px){
+  .calendar iframe:nth-of-type(2) {
+    height: 450px;
+  } 
+}
+
+
 
 /***** UNIVERSAL *****/
 

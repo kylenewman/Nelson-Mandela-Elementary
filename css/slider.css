@@ -146,12 +146,11 @@ Slider
 
 -------------------------------- */
 .cd-hero {
-  height: 450px;
+  height: 360px;
   position: relative;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 
 .cd-hero-slider {
   position: relative;
@@ -195,7 +194,10 @@ Slider
 }
 @media only screen and (min-width: 768px) {
   .cd-hero-slider {
-    height: 500px;
+    height: 450px;
+  }
+  .cd-hero {
+    height: 450px;
   }
 }
 @media only screen and (min-width: 1170px) {
