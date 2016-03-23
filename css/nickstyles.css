@@ -10,7 +10,7 @@
 
 .employ p {
   padding-bottom: 50px;
-  text-align: left;
+  text-align: center;
   width: 600px;
   font-family: "Gentium Basic";
   color: #010c19;
@@ -40,6 +40,9 @@
 }
 .news h3:nth-of-type(2) {
   margin-top: -55px;
+}
+.news h5 {
+  padding-top: 45px;
 }
 
 /* ---- .grid-item ---- */
@@ -81,8 +84,8 @@
 .grid img {
   border-radius: 5%;
 }
-.photos {
-  background-color: 
+.pix h5 {
+  text-align: center;
 }
 .modal-photo img {
   float: none;
