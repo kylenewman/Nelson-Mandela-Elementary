@@ -124,6 +124,18 @@
 .nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
   background-color: #f0b30d;
 }
+.form-control::-webkit-input-placeholder { 
+  font-family: 'open sans', sans-serif; 
+}
+.form-control:-moz-placeholder { 
+  font-family: 'open sans', sans-serif; 
+}
+.form-control::-moz-placeholder { 
+  font-family: 'open sans', sans-serif; 
+}
+.form-control:-ms-input-placeholder { 
+  font-family: 'open sans', sans-serif; 
+}
 
 @media all and (max-width: 996px) {
   .navbar-custom .navbar-nav > li > a {
@@ -267,7 +279,7 @@ h2 {
 }
 .staff img, .partners img {
   width: 75%;
-  margin-top: 55px;
+  margin-top: 35px;
   margin-bottom: 10px;
 }
 .staff img {
@@ -372,6 +384,11 @@ h2 {
 }
 .partners h2 {
   padding-bottom: 0;
+}
+.partners p {
+  padding-top: 15px;
+  max-width: 65%;
+  margin: 0 auto;
 }
 
 @media all and (max-width: 768px) {
@@ -502,6 +519,9 @@ h2 {
 .parent img {
   border-radius: 0;
 }
+.parent{
+  padding-bottom: 15px;
+}
 
 /***** CAROUSEL *****/
 
@@ -589,7 +609,7 @@ footer p {
 .footerMobile {
   display: none;
 }
-@media all and (max-width: 600px) {
+@media all and (max-width: 550px) {
   .footerMobile {
     display: block;
     text-align: center;
@@ -610,9 +630,6 @@ footer p {
   }
   .footerMobile p {
     font-size: 12px;
-  }
-  .social ul  {
-/*    display: inline-block;*/
   }
   .social li {
     padding: 0 10px;
