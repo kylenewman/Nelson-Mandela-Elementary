@@ -297,7 +297,7 @@ h2 {
 }
 .staff h6 {
   font-family: 'open sans', sans-serif;
-  font-size: 14px;
+  font-size: 13px;
   color: #00295b;
 }
 .staff a, .partners a, .cd-full-width a  {
@@ -394,6 +394,12 @@ h2 {
 @media all and (max-width: 768px) {
   .staff img {
     width: 85%
+  }
+  .staff h5, .partners h5 {
+    font-size: 14px;
+  }
+  .staff h6 {
+    font-size: 10px;
   }
 }
 
@@ -632,7 +638,7 @@ footer p {
     font-size: 12px;
   }
   .social li {
-    padding: 0 10px;
+    padding: 0 5px;
     border-bottom: none;
     display: inline-block;
   }
