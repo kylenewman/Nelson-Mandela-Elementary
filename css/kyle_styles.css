@@ -6,6 +6,15 @@
   black = #010c19
   */
 
+/***** UNIVERSAL *****/
+
+.right {
+  float: right;
+}
+.left {
+  float: left;
+}
+
 /***** ABOVE NAV *****/
 .aboveNav {
   padding-top: 10px;
@@ -199,7 +208,7 @@ h2 {
   font-family: 'gentium basic', serif;
   font-style: italic;
   font-size: 18px;
-  margin-top: 45px;
+  margin-top: 75px;
   text-decoration: none;
 }
 .cta a:hover {
@@ -221,12 +230,32 @@ h2 {
 
 /***** CURRICULUM *****/
 
-.curr iframe {
+.curr iframe, .spalding {
   width: 100%;
-  height: 275px;
+  height: 263px;
 }
-.curr img {
-  width: 100%;
+.spalding {
+  background-image: url(../img/partners/spalding-education.png);
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border-top: 15px solid #00295b;
+  border-bottom: 15px solid #00295b;
+}
+@media all and (max-width: 1200px) {
+  .curr iframe, .spalding {
+    height: 220px;
+  }
+}
+@media all and (max-width: 992px) {
+  .curr iframe, .spalding {
+    height: 150px;
+  }
+}
+@media all and (max-width: 768px) {
+  .curr iframe, .spalding {
+    height: 300px;
+  }
 }
 
 
@@ -283,7 +312,7 @@ h2 {
   padding-right: 10px;
   border-radius: 50%;
 }
-.modal-body span {
+.staff-modal span {
   font-style: italic;
   font-weight: 400;
 }
@@ -305,7 +334,7 @@ h2 {
   font-size: 14px;
   font-weight: 700;
 }
-.modal-body p, .modal-body li {
+.staff-modal p, .modal-body li {
   padding-bottom: 5px;
   font-family: 'open sans', sans-serif;
   font-size: 14px;
@@ -551,13 +580,56 @@ h2 {
   } 
 }
 
+/***** FOOTER *****/
 
-
-/***** UNIVERSAL *****/
-
-.right {
-  float: right;
+footer p {
+  font-weight: 400;
+  text-transform: none;
 }
-.left {
-  float: left;
+.footerMobile {
+  display: none;
 }
+@media all and (max-width: 600px) {
+  .footerMobile {
+    display: block;
+    text-align: center;
+  }
+  .footerMobile ul {
+    display: block;
+    text-align: center;
+  }
+  .footerMobile li {
+    padding: 10px;
+    border-bottom: 1px solid #002970;
+  }
+  .footerMobile li:hover {
+    background-color: #f0b30d; 
+  }
+  .footerMobile a {
+    text-transform: uppercase;
+  }
+  .footerMobile p {
+    font-size: 12px;
+  }
+  .social ul  {
+/*    display: inline-block;*/
+  }
+  .social li {
+    padding: 0 10px;
+    border-bottom: none;
+    display: inline-block;
+  }
+  .footerMobile ul {
+    padding-top: 25px;
+    padding-bottom: 0;
+  }
+  .footerMobile p {
+    line-height: 20px;
+  }
+  .list{
+    display: none;
+  }
+}
+
+
+
