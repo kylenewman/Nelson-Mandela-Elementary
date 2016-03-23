@@ -1,7 +1,128 @@
-  /*
-  navy = 00295b
-  orange = f0b30d
-  */
+/*Contact*/
+
+.contactus {
+  text-align: center;
+  border: 1px ;
+  padding-bottom: 125px;
+}
+
+/*Careers*/
+
+.employ p {
+  padding-bottom: 50px;
+  text-align: left;
+  width: 600px;
+  font-family: "Gentium Basic";
+  color: #010c19;
+  font-size: 16px;
+  line-height: 17px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+/*News*/
+
+.news {
+  margin: 0 auto;
+  padding-bottom: 15px;
+}
+.news a {
+  font-family: 'Gentium Basic', serif;
+  font-weight: 400;
+  color: #00295b;
+}
+.lastnews {
+  padding-bottom: 45px;
+}
+
+.news h3:first-of-type {
+  padding-bottom: 20px;
+}
+.news h3:nth-of-type(2) {
+  margin-top: -55px;
+}
+
+/* ---- .grid-item ---- */
+
+.photos iframe {
+  margin: 30px 0px;
+  width 100%;
+}
+.grid-item img {
+  width: 400px;
+}
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.grid-sizer,
+.grid-item {
+  width: 33.333%;
+}
+
+.grid-item {
+  float: left;
+}
+
+.grid-item img {
+  display: block;
+  width: 100%;
+  padding: 3px 3px 0px 0px;
+}
+.contactus {
+  padding: 0px;
+}
+.construct {
+  padding-bottom: 30px;
+}
+.grid img {
+  border-radius: 5%;
+}
+.photos {
+  background-color: 
+}
+.modal-photo img {
+  float: none;
+  width: 100%
+  }
+/*Headers*/
+
+h3 {
+  font-family: 'Open sans', sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #00295b;
+  font-size: 36px;
+  text-align: center;
+  padding-top: 35px;
+  padding-bottom: 25px;
+}
+h4 {
+  font-size: 24px;
+  padding: 15px 15% 55px 15%;
+  line-height: 28px;
+  font-family: "Gentium Basic";
+}
+h4 a {
+  color: #f0b30d;
+}
+h4 a:hover {
+  color: #00834d;
+  text-decoration: none;
+}
+h5 {
+  padding-bottom: 15px;
+  font-size: 18px;
+  font-family: "Open Sans";
+  color: #00295b;
+  font-weight: 800;
+}
+
+/*You can learn*/
+
 .youcanlearn iframe {
   display: inline-block;
   text-align: center;
@@ -11,6 +132,33 @@
   background-image: url(../img/video_bg.jpg);
   height: 440px;
   margin-top: 50px;
+/*Curriculum*/
+  
+}
+.curr {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.curr p {
+  font-family: "Gentium Basic";
+  color: #00295b;
+  font-size: 15px;
+  line-height: 18px;
+  font-family: 'Gentium Basic', serif;
+  font-weight: 400;
+  color: #010c19
+}
+.currRow {
+  text-align: left;
+}
+.currRow h5 {
+  padding-bottom: 5px;
+  padding-top: 20px;
+}
+/*Footer*/
+
+.list {
+  text-align: left;
 }
 footer {
   background-color: #00295b;
@@ -50,9 +198,6 @@ footer ul:nth-child(2){
   bottom: 22px;
   padding-left: 80px;
 }
-.list {
-  text-align: left;
-}
 footer a:link {
   text-decoration: none;
   color: #f6f9fd;
@@ -77,143 +222,11 @@ footer div {
   text-align: center;
   padding-bottom: 10px;
 }
-.contactus {
-  text-align: center;
-  border: 1px ;
-  padding-bottom: 125px;
-}
-.lasthomebutton {
-  padding-bottom: 45px;
-}
-h3 {
-  font-family: 'Open sans', sans-serif;
-  font-weight: 800;
-  text-transform: uppercase;
-  color: #00295b;
-  font-size: 36px;
-  text-align: center;
-  padding-top: 35px;
-  padding-bottom: 25px;
-}
-h4 {
-  font-size: 24px;
-  padding: 15px 15% 55px 15%;
-  line-height: 28px;
-  font-family: "Gentium Basic";
-}
-h4 a {
-  color: #f0b30d;
-}
-h4 a:hover {
-  color: #00834d;
-  text-decoration: none;
-}
-h5 {
-  padding-bottom: 15px;
-  font-size: 18px;
-  font-family: "Open Sans";
-  color: #00295b;
-  font-weight: 800;
-}
-.curr {
-  text-align: center;
-  margin-bottom: 40px;
-}
-.curr p {
-  font-family: "Gentium Basic";
-  color: #00295b;
-  font-size: 15px;
-  line-height: 18px;
-  font-family: 'Gentium Basic', serif;
-  font-weight: 400;
-  color: #010c19
-}
-.currRow {
-  text-align: left;
-}
-.currRow h5 {
-  padding-bottom: 5px;
-  padding-top: 20px;
-}
-.employ p {
-  padding-bottom: 50px;
-  text-align: left;
-  width: 600px;
-  font-family: "Gentium Basic";
-  color: #010c19;
-  font-size: 16px;
-  line-height: 17px;
-  margin: 0 auto;
-  padding-top: 20px;
-}
-.news {
-  margin: 0 auto;
-  padding-bottom: 15px;
-}
-.news a {
-  font-family: 'Gentium Basic', serif;
-  font-weight: 400;
-  color: #00295b;
-}
-.lastnews {
-  padding-bottom: 45px;
-}
 footer img {
   padding: 0 10px;
   width: 65px;
 }
-.news h3:first-of-type {
-  padding-bottom: 20px;
-}
-.news h3:nth-of-type(2) {
-  margin-top: -55px;
-}
-.photos iframe {
-  margin: 30px 0px;
-  width 100%;
-}
-.grid-item img {
-  width: 400px;
-}
-/* clear fix */
-.grid:after {
-  content: '';
-  display: block;
-  clear: both;
-}
-
-/* ---- .grid-item ---- */
-
-.grid-sizer,
-.grid-item {
-  width: 33.333%;
-}
-
-.grid-item {
-  float: left;
-}
-
-.grid-item img {
-  display: block;
-  width: 100%;
-  padding: 3px 3px 0px 0px;
-}
-.contactus {
-  padding: 0px;
-}
-.construct {
-  padding-bottom: 30px;
-}
-.grid img {
-  border-radius: 5%;
-}
-.photos {
-  background-color: 
-}
 @media all and (max-width: 768px) {
-  .player .target {
-    width: 50%;
+  .photos iframe {
+    width: 85%;
   }
-
-
-
