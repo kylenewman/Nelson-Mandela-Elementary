@@ -642,6 +642,9 @@ footer p {
     border-bottom: none;
     display: inline-block;
   }
+  .social li:hover {
+    background-color: #00295b;
+  }
   .footerMobile ul {
     padding-top: 25px;
     padding-bottom: 0;
